@@ -1,0 +1,332 @@
+<!-- // Badea Abu Frieh ID: 312217854. Malak Abu gdayah ID: 322618075 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="keywords" content="personal info, resmue">
+    <meta name="description" content="resume cv document for applying to a job">
+    <title>Online CV Application</title>
+
+    <!-- for icons:-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <h1>Scroll To Top Button</h1>
+    <button id="btnScrollToTop">
+        <i class="material-icons">^</i> 
+    </button>
+
+    <header class="navbar fixed-top navbar-light bg-light">
+        <nav class="navbar navbar-dark bg-primary">
+        <a href="#" class="logo">Badea&Malak</a>
+        <ul class="nav"> <!--navigation-->
+            <li><a href="#home" class="nav-a">Home</a></li> <!--the hash symbol so that we go to another page-->
+            <li><a href="#personal-info" class="nav-a">Personal Info</a></li>
+            <li><a href="#skills" class="nav-a">Skills</a></li>
+            <li><a href="#education" class="nav-a">Education</a></li>
+            <li><a href="#work-experience" class="nav-a">Work Experience</a></li>
+            <li><a href="#recommendations" class="nav-a">Recommendations</a></li>            
+        </ul>
+    </nav>
+    </header>
+
+    <div class="home-area" id="home"> <!--id should be identical to href in navbar except for the hash symbol-->
+        <div class="text-part">
+            <br><br>
+            
+            <img src="photos/welc2.jpg" class="home-img">
+        </div>
+    </div>
+
+    <div class="personal-info-area" id="personal-info">
+        <br><br>
+        
+        <div class="about-personal-info-area">
+            <div class="left">
+                <img src="photos/arno_dorian.gif" alt="arnoDorian" id="myImg">
+
+                <!-- The Modal-->
+                <div id="myModal" class=modal>
+                    <span class="close">&times</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+
+                <h1>Badea&Malak</h1>
+                <h5>Web Developer - Web Designer</h5>
+            </div>
+            <div class="right">
+                <div class="info">
+                    <h3>Information</h3>
+                    <div class="info_data">
+                        <div class="data">
+                            <h4>Email</h4>
+                            <p class="inf-anchors"><a href="mailto:badeafreh@gmail.com">badeafreh@gmail.com</a></p>
+                        </div>
+                        <div class="data">
+                            <h4>Phone</h4>
+                            <p class="inf-anchors"><a href="tel:0584811001">058-4811001</a></p>
+                        </div>
+                        <div class="data">
+                            <h4>Location</h4>
+                            <p class="inf-anchors"><a href="https://www.google.com/maps/place/Be'er+Sheva/@31.2615691,34.7208463,
+                                                            12z/data=!3m1!4b1!4m5!3m4!1s0x15026640029f8777:0x8dee8012deb5dd8!8m2!3d31.
+                                                            252973!4d34.791462" target="_blank">BeerSheva</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="wrapper">
+      <h2>Contact us</h2>
+      <div id="error_message"></div>
+
+      <form id="myform">
+
+            <div class="input_field">
+                <input type="text" placeholder="Name" id="name">
+            </div>
+    
+            <div class="input_field">
+                <input type="text" placeholder="Phone" id="phone">
+            </div>
+    
+            <div class="input_field">
+                <input type="text" placeholder="Email" id="email">
+            </div>
+    
+            <div class="input_field">
+                <textarea placeholder="Message" id="message"></textarea>
+                <div id="remaining-chars">200 characters remaining</div>
+            </div>
+    
+            <div class="btn">
+                <input type="submit">
+            </div>
+      </form>
+    </div>
+
+    <div class="skills-area" id="skills">
+        <br><br>
+        <div class="about-skills-area">
+            
+            <p>
+                <h3>HTML5</h3>
+                <span class="bar">
+                    <span class="progress-bar html" data-done="70">---</span>
+                </span>
+            </p>
+
+            <p>
+                <h3>CSS3</h3>
+                <span class="bar">
+                    <span class="progress-bar css" data-done="65"></span>
+                </span>
+            </p>
+
+            <p>
+                <h3>JavaScript</h3>
+                <span class="bar">
+                    <span class="progress-bar javascript" data-done="80"></span>
+                </span>
+            </p>
+
+            <p>
+                <h3>JQuery</h3>
+                <span class="bar">
+                    <span class="progress-bar jquery" data-done="45"></span>
+                </span>
+            </p>
+
+        </div>
+    </div>
+    <div class="education-area" id="education">
+        <br><br>
+        <div class="about-education-area">
+            <div class="location-1">
+                <iframe class="education-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.54611616
+                5792!2d34.592356914630564!3d31.509157454849408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!
+                4f13.1!3m3!1m2!1s0x1502814a96e693ed%3A0xd2f92addc3834b6c!2z15TXnteb15zXnNeUINeU15
+                DXp9eT157XmdeqINeh16TXmdeo!5e0!3m2!1sen!2sil!4v1618426528657!5m2!1sen!2sil" 
+                width="280" height="auto" allowfullscreen="" loading="lazy"></iframe>
+                <p>Sapir College</p>
+                <p>B.sc Computer Science</p>
+                <p class="education-years"><strong>2019-2022</strong></p>
+            </div>
+
+            <div class="location-2">
+                <iframe class="education-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.5014258
+                336446!2d34.79927231462418!3d31.2622225669725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768
+                !4f13.1!3m3!1m2!1s0x1502665f2e01c71b%3A0x15ca4db0c140b893!2sBen%20Gurion%20Uni
+                versity%20of%20the%20Negev!5e0!3m2!1sen!2sil!4v1618426817278!5m2!1sen!2sil" 
+                width="280" height="auto" allowfullscreen="" loading="lazy"></iframe>
+                <p>Bin-Gurion University</p>
+                <p>PhD degree in Software-Engineering</p>
+                <p class="education-years"><strong>2023-2026</strong></p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="work-experience-area" id="work-experience">
+        <br><br> 
+        <div class="table-responsive">
+            <table class="table">
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Title</th>
+                    <th>2020-2021</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><img src="photos/logos/binary lab.jpg" class="exp-table-img"></td>
+                    <td>Binary Lab</td>
+                    <td>UK</td>
+                    <td>Back-End Dev</td>
+                    <td>2021-2022</td>
+                    <td>Great</td>
+                </tr>
+                <tr>
+                    <td><img src="photos/logos/instinct.png" class="exp-table-img"></td>
+                    <td>Game Instinct</td>
+                    <td>Tel-Aviv</td>
+                    <td>Team lead</td>
+                    <td>2023-2024</td>
+                    <td>Magic</td>
+                </tr>
+                <tr>
+                    <td><img src="photos/logos/intel.png" class="exp-table-img"></td>
+                    <td>Intel</td>
+                    <td>Kiryat Gat</td>
+                    <td>Teach lead</td>
+                    <td>2025-2027</td>
+                    <td>Great</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    
+    <div class="recommendations-area" id="recommendations">
+        <br><br>
+
+        <div class="about-recommendations-area">
+            
+            <div class="rec-1">
+                <img class="rec-img" src="photos/rec1.jpg">
+                <h3>Lincoln Pop</h3>
+                <p>Illo iste corrupti doloribus odio sed!</p>
+                <div class="social-wrapper">
+
+                    <div class="button">
+                        <div class="icon">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f" id="fb"></i></div></a>
+                            
+                    </div>
+
+                    <div class="button">
+                        <div class="icon">
+                            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter" id="twtr"></i></div></a>
+                            
+                    </div>
+                </div>
+            </div>
+
+            <div class="rec-2">
+                <img class="rec-img" src="photos/rec2.jpg">
+                <h3>Marie Flower</h3>
+                <p>amet consectetur adipisicing elit.</p>
+                <div class="social-wrapper">
+
+                    <div class="button">
+                        <div class="icon">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f" id="fb"></i></div></a>
+                            
+                    </div>
+
+                    <div class="button">
+                        <div class="icon">
+                            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter" id="twtr"></i></div></a>
+                            
+                    </div>
+
+                    <div class="button">
+                        <div class="icon">
+                             <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube" id="yt"></i></div></a>
+                            
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="rec-3">
+                <img class="rec-img" src="photos/rec3.png">
+                <h3>Vito Scaletta</h3>
+                <p>Illo iste corrupti doloribus odio sed!</p>
+                <div class="social-wrapper">
+
+                    <div class="button">
+                        <div class="icon">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f" id="fb"></i></div></a>
+                            
+                    </div>
+
+                    <div class="button">
+                        <div class="icon">
+                            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter" id="twtr"></i></div></a>
+                            
+                    </div>
+                </div>
+            </div>
+
+            
+            
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-content">
+            <h3>Badea-Malak</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Illo iste corrupti doloribus odio sed!</p>
+                 <ul class="socials">
+
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>                
+                    <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://github.com/BadeaFreh/Assignment1_Web" target="_blank"><i class="fa fa-github"></i></a></li>
+                 </ul>
+        </div>
+
+        <div class="footer-bottom">
+            <p>copyright &copy; 2021 CodeX. Designed by <span>Badea&Malak</span></p>
+        </div>
+
+    </footer>
+
+    <!--bootstrap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+</body>
+
+
+</html>
